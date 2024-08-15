@@ -8,13 +8,193 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Concert+One&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Gilda+Display&family=Great+Vibes&family=Gupter:wght@400;500;700&family=Kalnia+Glaze:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Qwitcher+Grypen:wght@400;700&family=Roboto+Slab:wght@100..900&family=Sofia&family=Whisper&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- animate cdn -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<!-- aos cdn -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
     <!-- navbar -->
+    <header id="header">
+        <!-- logo -->
+         <img class="logo" src="./images/logos.png" alt="">
+         <input type="checkbox" id="check">
+         <!-- menu icon -->
+         <label for="check" class="icons">
+            <i class="fa-solid fa-bars" style="color: #ffffff;" id="menuicon"></i>
+
+         <!-- close icon -->
+         <i class="fa-solid fa-x" style="color: #ffffff;" id="closeicon"></i>
+        </label>
+         <!-- nav tags -->
+          <nav class="navbar">
+              <a href="">HOME</a>
+              <a href="">ABOUT</a>
+              <a href="">SHOP</a>
+              <a href=""> CUSTOMER SERVICES</a>
+              <a href="">CONTACTS</a>
+             
+          </nav>
+          <i class="fa-solid fa-cart-shopping cart" style="color: #ffffff;"></i>
+
+     </header>
     <!-- about -->
+    <div class="container">
+        <img class="homeimage" src="./images/wallpaper.jpg" alt="Snow" >
+        
+        <div class="centered">
+            <img class="animate__animated animate__backInLeft" src="./images/logos.png" alt="">
+            <button class="button">Shop Now</button>
+        </div>
+      </div>
      <!-- collection -->
+      <div class="collection-container">
+        <div class="item">
+            <img class="group1" src="./images/women.jpg" alt="">
+            <div class="center">
+               <h4>WOMEN'S COLLECTION</h4>
+            </div>
+        </div>
+        <div class="item">
+            <img class="group1" src="./images/men1.jpg" alt="">
+            <div class="center">
+                <h4>MEN'S COLLECTION</h4>
+             </div>
+        </div>
+      </div>
       <!-- product -->
+       <section id="products">
+        <div class="phead">
+            <h2>OUR BEST SELLERS</h2>
+         </div>
+        <div class="product-container">
+           
+            <div class="item1">
+                <div data-aos="zoom-in" class="group2"><img src="./images/f2.jpg" alt=""></div>
+                <button class="buy-button"> buy now</button>
+            </div>
+            <div class="item1">
+                <div data-aos="zoom-in" class="group2"><img src="./images/m3.jpg" alt=""></div>
+                <button class="buy-button"> buy now</button>
+            </div>
+            <div class="item1">
+                <div data-aos="zoom-in" class="group2"><img src="./images/f5.jpg" alt=""></div>
+                <button class="buy-button"> buy now</button>
+            </div>
+            <div class="item1">
+                <div data-aos="zoom-in" class="group2"><img src="./images/m1.jpg" alt=""></div>
+                <button class="buy-button"> buy now</button>
+            </div>
+            <div class="item1">
+                <div data-aos="zoom-in" class="group2"><img src="./images/f3.jpg" alt=""></div>
+                <button class="buy-button"> buy now</button>
+            </div>
+            <div class="item1">
+                <div data-aos="zoom-in" class="group2"><img src="./images/m6.jpg" alt=""></div>
+                <button class="buy-button"> buy now</button>
+            </div>
+        </div>
+
+       </section>
+       <!-- about -->
+       <section id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <p>At Awesome Shoes, we believe in providing top-quality footwear that combines style, comfort, and durability. Our collection includes a wide range of shoes for every occasion, ensuring you look and feel your best, wherever you go. Whether you're dressing up for a special event or looking for everyday comfort, Awesome Shoes has something just for you.</p>
+            </div>
+            <div class="about-image">
+                <img src="./images/womwn2.jpg" alt="Awesome Shoes Store">
+            </div>
+        </div>
+    </section>
+    
        <!-- contact -->
+      
+    
+        <!-- footer -->
+         <section id="footer">
+            <div class="footercontent">
+               <div class="contact">
+                    <div class="footerhead">
+                        <h1>Address</h1>
+                        <p>
+                            500 Terry Francine Street <br>
+                            
+                            San Francisco, CA 94158 <br>
+                            
+                            info@mysite.com
+                            
+                            Tel: 123-456-7890
+            
+                        </p>
+                    </div>
+                        <div class="iconcollection">
+                            <!-- linkedin -->
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/in/jaleena-maria-thomas/" target="_blank"> <i
+                                        class="fa-brands fa-youtube brands"></i></a>
+            
+                            </div>
+                            <!-- facebook -->
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/in/jaleena-maria-thomas/" target="_blank"> <i
+                                        class="fa-brands fa-facebook brands"></i></a>
+            
+                            </div>
+                            <!-- instagram -->
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/in/jaleena-maria-thomas/" target="_blank"> <i
+                                        class="fa-brands fa-instagram brands"></i></a>
+            
+                            </div>
+                            <!-- facebook -->
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/in/jaleena-maria-thomas/" target="_blank"> <i
+                                        class="fa-brands fa-twitter brands"></i></a>
+            
+                            </div>
+                           
+                        </div>
+               </div>
+                
+                <div class="row">
+                    <div class="col">
+                        <a href="">Home</a>
+                        <a href="">collection</a>
+                        <a href="">Sale</a>
+                        <a href="">About</a>
+                        <a href="">Contact</a>
+                    </div>
+                    <div class="col">
+                        <a href="">FAQ</a>
+                        <a href="">Shipping&Returns</a>
+                        <a href="">Store Policy</a>
+                        <a href="">Payments</a>
+                        <a href="">Stockits</a>
+                    </div>
+                    <div class="col">
+                        <a href="">Facebook</a>
+                        <a href="">Instagram</a>
+                        <a href="">Pinterest</a>
+                        
+                    </div>
+                </div>
+            <hr>
+<div class="copyright"><p>© 2024 by AWESOME SNEAKERS. Powered and secured by jaleena</p></div>
+            </div>
+            
+         </section>
 </body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>
